@@ -1,0 +1,19 @@
+{
+  "name": "random-dad-jokes-api-server",
+  "version": "1.0.0",
+  "description": "random dad's joke generator server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DorcasOpatola/random-dad-jokes-api-server.git"
+  },
+  "author": "Dorcas Opatola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DorcasOpatola/random-dad-jokes-api-server/issues"
+  },
+  "homepage": "https://github.com/DorcasOpatola/random-dad-jokes-api-server#readme"
+}
