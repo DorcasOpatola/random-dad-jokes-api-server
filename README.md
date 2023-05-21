@@ -34,5 +34,5 @@ The server runs at `http://localhost:3000`.
 #### Randome Dad joke example
 ```
 {
-    "randomDadJokes": ""
+    "randomDadJoke":"Roses are red, violet's are blue When I listen to rock music. My neighbours do too."
 }
