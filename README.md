@@ -2,6 +2,8 @@
 
 This Node.js server uses Express and Axios to retrieve random Dad jokes from the Dad Jokes API.
 <br>
+<br>
+
 ## Installation
 
 1. Clone the repository:
@@ -30,8 +32,8 @@ npm start
 
 The server runs at `http://localhost:3000`.
 <br>
-
-#### Randome Dad joke example
+<br>
+## Random Dad joke example
 ```
 {
     "randomDadJoke":"Roses are red, violet's are blue When I listen to rock music. My neighbours do too."
