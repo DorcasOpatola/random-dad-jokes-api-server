@@ -9,11 +9,11 @@ const DadJokesAPIKey = process.env.API_KEY;
 const DadJokesAPIURL = 'https://dad-jokes.p.rapidapi.com/random/joke';
 
 
-// Midlewara to parse JSON body
+// Midleware to parse JSON body
 app.use(express.json());
 
 
-// GET /jokes
+// GET /random-joke
 // API endponit to get a random Dad joke
 app.get('/random-joke', async (req, res) => {
     try {
