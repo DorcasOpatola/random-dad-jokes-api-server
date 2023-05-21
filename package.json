@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/DorcasOpatola/random-dad-jokes-api-server/issues"
   },
-  "homepage": "https://github.com/DorcasOpatola/random-dad-jokes-api-server#readme"
+  "homepage": "https://github.com/DorcasOpatola/random-dad-jokes-api-server#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
 }
