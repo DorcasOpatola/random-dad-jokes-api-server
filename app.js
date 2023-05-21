@@ -1,10 +1,11 @@
 const express = require('express');
 const axios = require('axios');
+require('dotenv').config();
 
 const app = express();
 const port = 3000;
 
-const DadJokesAPIKey = 'ac36004e64msh2f03d5e28e75ab5p1a32bfjsn9dc87404b637';
+const DadJokesAPIKey = process.env.API_KEY;
 const DadJokesAPIURL = 'https://dad-jokes.p.rapidapi.com/random/joke';
 
 
@@ -19,7 +20,7 @@ app.get('/random-joke', async (req, res) => {
         const response = await axios.get(DadJokesAPIURL, {
             headers: {
                 'x-rapidapi-key': DadJokesAPIKey,
-                'x-rapidapi-host': 'dad-jokes.p.rapidapi.com/random/jokes',
+                'x-rapidapi-host': 'dad-jokes.p.rapidapi.com',
             },
         });
 
